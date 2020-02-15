@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:batchtest;DB_CLOSE_ON_EXIT=FALSE
+    username: fiap
+    password: fiap
+
+file:
+  path: D:/35SCJ/files/teste.txt
+  input: classpath:pessoa.txt
